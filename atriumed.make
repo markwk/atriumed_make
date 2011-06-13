@@ -203,6 +203,11 @@ projects[outline_designer][version] = "1.3"
 projects[openidadmin][subdir] = "contrib"
 projects[openidadmin][version] = "1.2"
 
+projects[openid_sso][type] = "module"
+projects[openid_sso][download][type] = "git"
+projects[openid_sso][download][url] = "git://github.com/permaculturecoop/openid_sso.git"
+projects[openid_sso][subdir] = "contrib"
+
 projects[parser_ical][subdir] = "contrib"
 projects[parser_ical][version] = "2.0-beta1"
 
