@@ -12,9 +12,9 @@ api = "2"
 ; =======================
 ; Profile 
 ; =======================
-projects[openatrium][type] = "profile"
-projects[openatrium][download][type] = "git"
-projects[openatrium][download][url] = "git://github.com/markwk/openatrium.git"
+projects[atriumed_profile][type] = "profile"
+projects[atriumed_profile][download][type] = "git"
+projects[atriumed_profile][download][url] = "git://github.com/markwk/atriumed_profile.git"
 
 ; =======================
 ; Contrib projects from OpenAtrium
@@ -391,7 +391,6 @@ libraries[flot][directory_name] = "flot"
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.1/ckeditor_3.5.1.tar.gz"
 libraries[ckeditor][directory_name] = "ckeditor"
-
 
 ;  ===================================
 ; Features
