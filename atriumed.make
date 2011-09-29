@@ -19,7 +19,6 @@ projects[atriumed_profile][download][url] = "git://github.com/markwk/atriumed_pr
 ; =======================
 ; Contrib projects from OpenAtrium
 ; =======================
-
 projects[admin][subdir] = "contrib"
 projects[admin][version] = "2.0"
 
@@ -57,7 +56,7 @@ projects[designkit][subdir] = "contrib"
 projects[designkit][version] = "1.0-beta1"
 
 projects[diff][subdir] = "contrib"
-projects[diff][version] = "2.2"
+projects[diff][version] = "2.1"
 
 projects[features][subdir] = "contrib"
 projects[features][version = "1.1"
@@ -122,11 +121,6 @@ projects[og][version] = "2.1"
 projects[openidadmin][subdir] = "contrib"
 projects[openidadmin][version] = "1.2"
 
-projects[openid_sso][type] = "module"
-projects[openid_sso][download][type] = "git"
-projects[openid_sso][download][url] = "git://github.com/permaculturecoop/openid_sso.git"
-projects[openid_sso][subdir] = "contrib"
-
 projects[parser_ical][subdir] = "contrib"
 projects[parser_ical][version] = "2.0-beta1"
 
@@ -180,186 +174,22 @@ projects[schema][version] = "1.7"
 projects[simpletest][subdir] = "developer"
 projects[simpletest][version] = "2.11"
 
-; =======================
-; Apache Solr Search
-; =======================
-projects[apachesolr][subdir] = "contrib"
-projects[apachesolr][version] = "1.2"
+; Features
+projects[atrium_features][type] = "module"
+projects[atrium_features][download][type] = "git"
+; projects[atrium_features][download][url] = "http://github.com/phase2/atrium_features.git"
+; projects[atrium_features][download][tag] = "6.x-1.0"
+projects[atrium_features][download][url] = "http://github.com/markwk/atrium_features.git"
 
-projects[apachesolr_attachments][subdir] = "contrib"
-projects[apachesolr_attachments][version] = "2.x-dev"
-
-libraries[SolrPhpClient][download][type] = "get"
-libraries[SolrPhpClient][download][url] = "http://solr-php-client.googlecode.com/files/SolrPhpClient.r22.2009-11-09.tgz"
-libraries[SolrPhpClient][directory_name] = "SolrPhpClient"
-libraries[SolrPhpClient][destination] = "modules/contrib/apachesolr"
-
-; =======================
-; AtriumED contrib
-; =======================
-projects[autoload][subdir] = "contrib"
-projects[autoload][version] = "2.1"
-
-projects[backup_migrate][subdir] = "contrib"
-projects[backup_migrate][version] = "2.4"
-
-projects[better_exposed_filters][subdir] = "contrib"
-projects[better_exposed_filters][version] = "1.x-dev"
-
-projects[captcha][subdir] = "contrib"
-projects[captcha][version] = "2.2"
-
-projects[chart][subdir] = "contrib"
-projects[chart][version] = "1.3"
-
-projects[computed_field][subdir] = "contrib"
-projects[computed_field][version] = "1.0-beta5"
-
-projects[emfield][subdir] = "contrib"
-projects[emfield][version] = "2.4"
-
-projects[filefield][subdir] = "contrib"
-projects[filefield][version] = "3.9"
-
-projects[filefield_sources][subdir] = "contrib"
-projects[filefield_sources][version] = "1.2"
-
-projects[fivestar][subdir] = "contrib"
-projects[fivestar][version] = "1.19"
-
-projects[flag][subdir] = "contrib"
-projects[flag][version] = "2.0-beta5"
-
-projects[flot][subdir] = "contrib"
-projects[flot][version] = "1.2"
-
-projects[google_analytics][subdir] = "contrib"
-projects[google_analytics][version] = "3.2"
-
-projects[ideation][subdir] = "contrib"
-projects[ideation][version] = "1.0-rc1"
-
-projects[imagefield][subdir] = "contrib"
-projects[imagefield][version] = "3.7"
-
-projects[insert][subdir] = "contrib"
-projects[insert][version] = "1.0"
-
-projects[jammer][subdir] = "contrib"
-projects[jammer][version] = "1.6"
-
-projects[link][subdir] = "contrib"
-projects[link][version] = "2.9"
-
-projects[media_youku][subdir] = "contrib"
-projects[media_youku][version] = "1.0"
-
-projects[media_tudou][subdir] = "contrib"
-projects[media_tudou][version] = "1.0"
-
-projects[media_ku6][type] = "module"
-projects[media_ku6][download][type] = "git"
-projects[media_ku6][download][url] = "git://github.com/markwk/media_ku6.git"
-projects[media_ku6][subdir] = "contrib"
-
-projects[media_ted][subdir] = "contrib"
-projects[media_ted][version] = "1.x-dev"
-
-projects[media_youtube][subdir] = "contrib"
-projects[media_youtube][version] = "1.3"
-
-projects[multistep][subdir] = "contrib"
-projects[multistep][version] = "1.5"
-
-projects[quiz][subdir] = "contrib"
-projects[quiz][version] = "4.0"
-
-projects[recaptcha][subdir] = "contrib"
-projects[recaptcha][version] = "1.5"
-
-projects[rules][subdir] = "contrib"
-projects[rules][version] = "1.2"
-
-projects[site_verify][subdir] = "contrib"
-projects[site_verify][version] = "1.0"
-
-projects[votingapi][subdir] = "contrib"
-projects[votingapi][version] = "2.3"
-
-projects[vote_up_down][subdir] = "contrib"
-projects[vote_up_down][version] = "2.4"
-
-projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][version] = "2.3"
-
-;  ===================================
 ; l10n
-;  ===================================
-projects[core_translation][subdir] = "l10n"
-projects[core_translation][type] = "module"
-projects[core_translation][download][type] = "cvs"
-projects[core_translation][download][module] = "contributions/modules/core_translation"
-projects[core_translation][download][revision] = "HEAD:2010-02-17"
-
 projects[l10n_client][subdir] = "l10n"
-projects[l10n_client][version] = "1.7"
-
+projects[l10n_client][version] = "2.0"
+ 
 projects[l10n_update][subdir] = "l10n"
-projects[l10n_update][type] = "module"
-projects[l10n_update][download][type] = "git"
-projects[l10n_update][download][url] = "git://github.com/phase2/l10n_update.git"
+projects[l10n_update][location] = "http://featureserver.phase2technology.com/fserver"
+projects[l10n_update][version] = "1.0-alpha1"
 
-;  ===================================
-; Performance Additions
-;  ===================================
-projects[cacherouter][subdir] = "performance"
-projects[cacherouter][version] = "1.0-rc1"
-
-projects[boost][subdir] = "performance"
-projects[boost][version] = "1.x-dev"
-
-projects[dbtuner][subdir] = "performance"
-projects[dbtuner][version] = "1.x-dev"
-
-projects[cache][subdir] = "performance"
-projects[cache][version] = "1.x-dev"
-
-projects[filefield_nginx_progress][subdir] = "performance"
-projects[filefield_nginx_progress][version] = "1.4"
-
-projects[elysia_cron][subdir] = "performance"
-projects[elysia_cron][version] = "1.x-dev"
-
-projects[ajaxblocks][subdir] = "performance"
-projects[ajaxblocks][version] = "1.2"
-
-projects[imageinfo_cache][subdir] = "performance"
-projects[imageinfo_cache][version] = "1.x-dev"
-
-projects[session_expire][subdir] = "performance"
-projects[session_expire][version] = "1.x-dev"
-
-projects[securesite][subdir] = "performance"
-projects[securesite][version] = "2.4"
-
-projects[expire][subdir] = "performance"
-projects[expire][version] = "1.x-dev"
-
-projects[authcache][subdir] = "performance"
-projects[authcache][version] = "1.x-dev"
-
-projects[views_content_cache][subdir] = "performance"
-projects[views_content_cache][version] = "2.x-dev"
-
-projects[css_emimage][subdir] = "performance"
-projects[css_emimage][version] = "2.1"
-
-projects[javascript_aggregator][subdir] = "performance"
-projects[javascript_aggregator][version] = "1.x-dev" 
-
-;  ===================================
 ; Themes
-;  ===================================
 projects[tao][version] = "3.2"
 projects[rubik][version] = "3.0-beta2"
 
@@ -368,11 +198,7 @@ projects[ginkgo][download][type] = "git"
 projects[ginkgo][download][url] = "http://github.com/phase2/ginkgo.git"
 projects[ginkgo][download][tag] = "6.x-1.0"
 
-projects[mobile_ginkgo][version] = "1.0" 
-
-;  ===================================
 ; Libraries
-;  ===================================
 libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery-ui-1.7.3.zip"
 libraries[jquery_ui][directory_name] = "jquery.ui"
@@ -384,21 +210,132 @@ libraries[translations][download][url] = "https://translate.openatrium.com/sites
 libraries[translations][directory_name] = "translations"
 libraries[translations][destination] = "."
 
-libraries[flot][download][type] = "get"
-libraries[flot][download][url] = "http://flot.googlecode.com/files/flot-0.6.tar.gz"
-libraries[flot][directory_name] = "flot"
+; =======================
+; Apache Solr Search
+; =======================
+projects[apachesolr][subdir] = "contribed"
+projects[apachesolr][version] = "1.2"
 
+projects[apachesolr_attachments][subdir] = "contribed"
+projects[apachesolr_attachments][version] = "2.x-dev"
+
+libraries[SolrPhpClient][download][type] = "get"
+libraries[SolrPhpClient][download][url] = "http://solr-php-client.googlecode.com/files/SolrPhpClient.r22.2009-11-09.tgz"
+libraries[SolrPhpClient][directory_name] = "SolrPhpClient"
+libraries[SolrPhpClient][destination] = "modules/contribed/apachesolr"
+
+; =======================
+; AtriumED contribed
+; =======================
+projects[autoload][subdir] = "contribed"
+projects[autoload][version] = "2.1"
+
+projects[auto_nodetitle][subdir] = "contribed"
+projects[auto_nodetitle][version] = "1.2"
+
+projects[backup_migrate][subdir] = "contribed"
+projects[backup_migrate][version] = "2.4"
+
+projects[better_exposed_filters][subdir] = "contribed"
+projects[better_exposed_filters][version] = "1.x-dev"
+
+projects[better_formats][subdir] = "contribed"
+projects[better_formats][version] = "1.2"
+
+projects[emfield][subdir] = "contribed"
+projects[emfield][version] = "2.4"
+
+projects[fasttoggle][subdir] = "contribed"
+projects[fasttoggle][version] = "1.4"
+
+projects[filefield][subdir] = "contribed"
+projects[filefield][version] = "3.9"
+
+projects[google_analytics][subdir] = "contribed"
+projects[google_analytics][version] = "3.2"
+
+projects[ideation][subdir] = "contribed"
+projects[ideation][version] = "1.0-rc1"
+
+projects[ie6update][subdir] = "contribed"
+projects[ie6update][version] = "1.3"
+
+projects[imagefield][subdir] = "contribed"
+projects[imagefield][version] = "3.7"
+
+projects[insert][subdir] = "contribed"
+projects[insert][version] = "1.0"
+
+projects[link][subdir] = "contribed"
+projects[link][version] = "2.9"
+
+projects[media_youku][subdir] = "contribed"
+projects[media_youku][version] = "1.0"
+
+projects[media_tudou][subdir] = "contribed"
+projects[media_tudou][version] = "1.0"
+
+projects[media_ku6][type] = "module"
+projects[media_ku6][download][type] = "git"
+projects[media_ku6][download][url] = "git://github.com/markwk/media_ku6.git"
+projects[media_ku6][subdir] = "contribed"
+
+projects[media_youtube][subdir] = "contribed"
+projects[media_youtube][version] = "1.3"
+
+projects[media_vimeo][subdir] = "contribed"
+projects[media_vimeo][version] = "1.1"
+
+projects[og_user_roles][subdir] = "contribed"
+projects[og_user_roles][version] = "4.1"
+
+projects[og_reg_keys][subdir] = "contribed"
+projects[og_reg_keys][version] = "1.4"
+
+projects[og_statistics][subdir] = "contribed"
+projects[og_statistics][version] = "1.0-rc5"
+
+projects[opentok] = "module"
+projects[opentok][download][type] = "git"
+projects[opentok][download][url] = "git://github.com/markwk/opentok.git"
+projects[opentok][subdir] = "contribed"
+
+projects[quiz][subdir] = "contribed"
+projects[quiz][version] = "4.0"
+
+projects[wysiwyg][subdir] = "contribed"
+projects[wysiwyg][version] = "2.3"
+
+projects[Quizlet][subdir] = "contribed"
+projects[Quizlet][version] = "1.21"
+
+;  ===================================
+; Performance Additions
+;  ===================================
+; projects[boost][subdir] = "performance"
+; projects[boost][version] = "1.x-dev"
+
+; projects[dbtuner][subdir] = "performance"
+; projects[dbtuner][version] = "1.x-dev"
+
+; projects[cache][subdir] = "performance"
+; projects[cache][version] = "1.x-dev"
+
+;  ===================================
+; Custom Themes
+;  ===================================
+
+
+;  ===================================
+; AtriumED Libraries
+;  ===================================
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.1/ckeditor_3.5.1.tar.gz"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 ;  ===================================
-; Features
+; AtriumED Features
 ;  ===================================
-projects[atrium_features][type] = "module"
-projects[atrium_features][download][type] = "git"
-projects[atrium_features][download][url] = "git://github.com/markwk/atrium_features.git"
-
 projects[atrium_polls][type] = "module"
 projects[atrium_polls][subdir] = "atriumED"
 projects[atrium_polls][download][type] = "git"
@@ -428,3 +365,43 @@ projects[atrium_folders][subdir] = "atriumED"
 projects[atrium_folders][download][type] = "git"
 projects[atrium_folders][download][url] = "git://github.com/markwk/atrium_folders.git"
 
+projects[atrium_opentok][type] = "module"
+projects[atrium_opentok][subdir] = "atriumED"
+projects[atrium_opentok][download][type] = "git"
+projects[atrium_opentok][download][url] = "git://github.com/markwk/atrium_opentok.git"
+
+projects[atriumed_dictionary][type] = "module"
+projects[atriumed_dictionary][subdir] = "atriumED"
+projects[atriumed_dictionary][download][type] = "git"
+projects[atriumed_dictionary][download][url] = "git://github.com/markwk/atriumed_dictionary.git"
+
+projects[atriumed_quizlet][type] = "module"
+projects[atriumed_quizlet][subdir] = "atriumED"
+projects[atriumed_quizlet][download][type] = "git"
+projects[atriumed_quizlet][download][url] = "git://github.com/markwk/atriumed_quizlet.git"
+
+projects[atriumed_assignment][type] = "module"
+projects[atriumed_assignment][subdir] = "atriumED"
+projects[atriumed_assignment][download][type] = "git"
+projects[atriumed_assignment][download][url] = "git://github.com/markwk/atriumed_assignment.git"
+
+;  ===================================
+; OpenID Single Sign On and Profile Syncing
+;  ===================================
+; projects[openid_client_ax] = 6.x
+; projects[openid_cp_field] = 6.x
+; projects[openid_profile] = 6.x
+; projects[openid_sso_relying] = 
+
+;  ===================================
+;  Custom Modules
+;  ===================================
+projects[embed_wr_dictionary][type] = "module"
+projects[embed_wr_dictionary][download][type] = "git"
+projects[embed_wr_dictionary][download][url] = "git://github.com/markwk/embed_wr_dictionary.git"
+projects[embed_wr_dictionary][subdir] = "custom"
+
+projects[og_clone][type] = "module"
+projects[og_clone][download][type] = "git"
+projects[og_clone][download][url] = "git://github.com/btopro/og_clone.git"
+projects[embed_wr_dictionary][subdir] = "custom"
