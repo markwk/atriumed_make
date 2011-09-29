@@ -12,9 +12,9 @@ api = "2"
 ; =======================
 ; Profile 
 ; =======================
-projects[atriumed_profile][type] = "profile"
-projects[atriumed_profile][download][type] = "git"
-projects[atriumed_profile][download][url] = "git://github.com/markwk/atriumed_profile.git"
+projects[openatrium][type] = "profile"
+projects[openatrium][download][type] = "git"
+projects[openatrium][download][url] = "git://github.com/markwk/openatrium.git"
 
 ; =======================
 ; Contrib projects from OpenAtrium
